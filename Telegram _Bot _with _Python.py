@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import requests
 import logging
 
-TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+TOKEN = 'privqte'
 bot = telegram.Bot(token=TOKEN)
 updater = Updater(token=TOKEN, use_context=True)
 dispatcher = updater.dispatcher
